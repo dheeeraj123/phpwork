@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://imgix.bustle.com/uploads/shutterstock/2020/7/9/aa6f7c73-2b70-47fa-8400-c29a2414cc3a-shutterstock-405494698.jpg?w=800&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2");
+       background-repeat: no-repeat;
+       
+        background-size: cover  ;
+        }
+        nav{
+           
+            text-align: center;
+            float: right;
+            color: rgb(168, 244, 5);
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            margin-left: 10px;
+           position: relative;
+        }
+        
+        a{
+            text-decoration: none;
+            color: blanchedalmond;
+        }
+        ul ul{
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 0;
+            margin: 0;
+
+        }
+        
+      
+       li:hover > ul{
+        display: block;
+       }
+       ul li{
+        width: 100%;
+       }
+       ul li a{
+        color:#fff;
+        padding: 10px;
+       }
+       ul li:hover{
+        background-color: rgb(6, 24, 52);
+       }
+       ul li:hover a{
+        color:#fff;
+       }
+       
+    </style>
+</head>
+<body>
+  <h1 style="margin-left: 225px;">Steakhouse</h1>
+  <i class="fas fa-dragon"></i>
+        <nav>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Order</a> </li>
+                <li><a href="#">Careers</a> </li>
+                <li><a href="#">Rewards </a> </li>
+                <li>
+                    <a href="#">Specials</a> 
+                <ul>
+                    <li><a href="#">special1</a></li>
+                    <li><a href="#">special2</a></li>
+                    <li><a href="#">special3</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Gift_Cards</a> </li>
+                <li><a href="#">Catering</a> </li>
+            </ul>
+        </nav>
+   
+  
+<h1 style="color: rgb(239, 20, 111); margin-left: 100px; font-size: 45px;padding-top: 250px;letter-spacing: 5px;"><b>A  Premium<br> And  Authentic<br>Steakhouse</b></h1>
+<button style="background-color: black;border: 2px solid whitesmoke; margin-left: 100px;" ><p style="color: white;">BOOK A TABLE</p></button>   
+
+
+    
+</body>
+</html>
