@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let a=["orange","Apple","Mango"];
+        a.sort();
+        alert("array element :"+a);
+
+        //ascending order
+
+        let b=[23,44,55,123,39,3,56];
+        b.sort(function(a,b){
+            return(a-b)
+        });
+        document.write(b+"<br>");
+
+//descending order
+        b.sort(function(a,b){
+            return(b-a);
+        });
+        document.write(b+"<br>");
+    </script>
+</body>
+</html>
